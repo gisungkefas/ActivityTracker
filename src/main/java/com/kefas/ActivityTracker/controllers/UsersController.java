@@ -1,9 +1,9 @@
 package com.kefas.ActivityTracker.controllers;
 
-import com.kefas.Weekeighttask.dto.UsersDto;
-import com.kefas.Weekeighttask.exception.UsersAlreadyExistException;
-import com.kefas.Weekeighttask.exception.UsersNotFoundException;
-import com.kefas.Weekeighttask.service.serviceImpl.UsersServiceImpl;
+import com.kefas.ActivityTracker.dto.UsersDto;
+import com.kefas.ActivityTracker.exception.UsersAlreadyExistException;
+import com.kefas.ActivityTracker.exception.UsersNotFoundException;
+import com.kefas.ActivityTracker.service.serviceImpl.UsersServiceImpl;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

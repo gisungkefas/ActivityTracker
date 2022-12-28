@@ -1,15 +1,14 @@
 package com.kefas.ActivityTracker.controllers;
 
-import com.kefas.Weekeighttask.dto.TaskDto;
-import com.kefas.Weekeighttask.exception.TaskAlreadyExistException;
-import com.kefas.Weekeighttask.exception.TaskNotFoundException;
-import com.kefas.Weekeighttask.exception.UsersNotFoundException;
-import com.kefas.Weekeighttask.service.serviceImpl.TaskServiceImpl;
+import com.kefas.ActivityTracker.dto.TaskDto;
+import com.kefas.ActivityTracker.exception.TaskAlreadyExistException;
+import com.kefas.ActivityTracker.exception.TaskNotFoundException;
+import com.kefas.ActivityTracker.exception.UsersNotFoundException;
+import com.kefas.ActivityTracker.service.serviceImpl.TaskServiceImpl;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 import javax.validation.Valid;
 
 @RestController
